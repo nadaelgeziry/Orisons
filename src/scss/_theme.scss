@@ -1,0 +1,114 @@
+.navbar-brand {
+    img {
+        width: 6rem;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 1.5rem 2rem;
+}
+
+.profile-dropdown {
+    border-right: 1px solid $gray-100;
+    border-left: 1px solid $gray-100;
+    display: inline-flex;
+    align-items: center;
+    .drop-pp {
+        display: inline-block;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        background-image: url("../../dist/imgs/man.jpg");
+        background-size: cover;
+        margin-right: 10px;
+    }
+    .drop-info {
+        display: inline-block;
+        margin-right: 30px;
+        h4 {
+            font-size: 12px;
+            font-family: "CatSB";
+            margin: 0;
+        }
+        h6{
+            font-size: 10px;
+            color: $gray-400;
+            font-family: "CatSB";
+            margin: 0;
+        }
+    }
+    .caret {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid $gray-400;
+        position: relative;
+        img {
+            width: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.notifications {
+    border-right: 1px solid $gray-100;
+    display: inline-flex;
+    align-items: center;
+    i {
+        margin: 0;
+        font-size: 18px;
+        position: relative;
+        .noti-msg {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: $pink;
+            top: -9px;
+            right: -4px;
+            .noti-num {
+                position: absolute;
+                font-size: 8px;
+                top: 1px;
+                right: 4px;
+                color: #fff;
+                font-family: "CatSB";
+            }
+        }
+    }
+}
+
+
+
+.side-nav {
+    background-color: $white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px $gray-200;
+    .nav-item {
+        padding: 1rem;
+        a.nav-link {
+            i {
+                color: $gray-400;
+                padding-bottom: 3px;
+            }
+        }
+        a.nav-link:hover {
+            i{
+                color: $success;
+                border-bottom: 2px solid $pink;
+                padding-bottom: 3px;
+            }
+        }
+        a.nav-link.active {
+            i {
+                color: $success;
+                border-bottom: 2px solid $pink;
+                padding-bottom: 3px;
+            }
+        }
+    }
+}
