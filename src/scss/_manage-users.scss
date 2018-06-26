@@ -1,0 +1,75 @@
+.divider {
+    // display: inline-flex;
+    align-items: center;
+}
+
+.divider-text {
+    font-size: 14px;
+    color: $gray-600;
+    margin: 0;
+}
+
+.divider-hr {
+    color: $gray-600;
+    margin: 0;
+}
+
+.main-btn {
+    font-size: 12px;
+    font-family: "CatSB";   
+}
+
+.card {
+    padding: 0;
+    .check-mark {
+        padding-top: 15px;
+        padding-right: 15px;
+        .caret {
+            width: 28px;
+            height: 28px;
+            float: right;
+        }
+    }
+    .circle-img {
+        margin: 0 auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-image: url("../../dist/imgs/man.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+    .card-body {
+        padding: 0;
+        text-align: center;
+        font-family: "CatSB";
+        h5 {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        h6 {
+            font-size: 10px;
+        }
+        .SA {
+            color: $pink;
+        }
+        .moderator {
+            color: $orange;
+        }
+        .normal {
+            color: $gray-600;
+        }
+        hr {
+            margin: 0;
+        }
+        .card-btns {
+            padding: 25px 0;
+            .btn {
+                font-size: 10px;
+                box-shadow: 0 0 8px $gray-400;
+                padding: .275rem 1.5rem;
+            }
+        }
+    }
+}
