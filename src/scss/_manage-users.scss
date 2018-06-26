@@ -14,11 +14,42 @@
     margin: 0;
 }
 
+
+
 .main-btn {
     font-size: 12px;
     font-family: "CatSB";   
+    float: right;
 }
 
+.divider-drop {
+    display: inline-block;
+    margin-right: 0;
+    button {
+        // display: inline-block;
+        margin-right: 20px;
+        display: inline-flex;
+        font-size: 12px;
+        font-family: "CatSB";
+        padding-right: 10px;
+        padding-left: 20px;
+        span {
+            // display: inline-block;
+            color: $gray-600;
+        }
+        p {
+        //    display: inline-block;
+            margin: 0;
+            margin-right: 60px;
+        }
+        .caret {
+            // display: inline-block;
+        }
+    }
+}
+.divider-drop-align {
+    float: right;
+}
 .card {
     padding: 0;
     .check-mark {
@@ -33,8 +64,8 @@
     .circle-img {
         margin: 0 auto;
         display: block;
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
         background-image: url("../../dist/imgs/man.jpg");
         background-size: cover;
