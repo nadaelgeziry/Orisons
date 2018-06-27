@@ -1,7 +1,12 @@
-.navbar-brand {
-    img {
-        width: 6rem;
-    }
+
+.user-image {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav__image {
+    width: 6rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
