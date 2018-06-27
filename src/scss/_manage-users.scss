@@ -61,16 +61,16 @@
             float: right;
         }
     }
+
     .circle-img {
         margin: 0 auto;
-        display: block;
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        background-image: url("../../dist/imgs/man.jpg");
-        background-size: cover;
-        background-position: center center;
+        object-fit: cover;
+        object-position: center;
     }
+
     .card-body {
         padding: 0;
         text-align: center;
