@@ -1,0 +1,53 @@
+.divider {
+    // display: inline-flex;
+    align-items: center;
+}
+
+.divider-text {
+    font-size: 14px;
+    color: $gray-600;
+    margin: 0;
+}
+
+.divider-hr {
+    color: $gray-600;
+    margin: 0;
+}
+
+
+
+.main-btn {
+    font-size: 12px;
+    font-family: "CatSB";   
+    float: right;
+}
+
+.divider-drop {
+    display: inline-block;
+    margin-right: 0;
+    button {
+        // display: inline-block;
+        margin-right: 20px;
+        display: inline-flex;
+        font-size: 12px;
+        font-family: "CatSB";
+        padding-right: 10px;
+        padding-left: 20px;
+        span {
+            // display: inline-block;
+            color: $gray-600;
+        }
+        p {
+        //    display: inline-block;
+            margin: 0;
+            margin-right: 60px;
+        }
+        .caret {
+            // display: inline-block;
+        }
+    }
+}
+.divider-drop-align {
+    float: right;
+}
+

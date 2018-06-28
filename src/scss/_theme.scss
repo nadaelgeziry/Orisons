@@ -1,7 +1,12 @@
-.navbar-brand {
-    img {
-        width: 6rem;
-    }
+
+.user-image {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav__image {
+    width: 6rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -37,19 +42,20 @@
             margin: 0;
         }
     }
-    .caret {
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        border: 1px solid $gray-400;
-        position: relative;
-        img {
-            width: 10px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+}
+
+.caret {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid $gray-400;
+    position: relative;
+    img {
+        width: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 

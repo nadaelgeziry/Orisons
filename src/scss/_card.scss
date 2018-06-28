@@ -1,0 +1,75 @@
+.card {
+    padding: 0;
+}
+
+.card__verification {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.card__check-mark-container {
+    width: 28px;
+    height: 28px;
+    float: right;
+    border-radius: 50%;
+    border: 1px solid $gray-400;
+    position: relative;
+}
+
+.card__check-mark {
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__image {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+.card__user-data {
+    padding: 0;
+    text-align: center;
+    font-family: "CatSB";
+}
+
+.card__user-name {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card__user-position {
+    font-size: 10px;
+}
+
+.card__divider {
+    margin: 0;
+}
+
+.card__footer {
+    padding: 0;
+    text-align: center;
+    font-family: "CatSB";
+    padding: 25px 0;
+}
+
+.card__button {
+    font-size: 10px;
+    box-shadow: 0 0 8px $gray-400;
+    padding: .275rem 1.5rem;
+}
+
+.card__user-position_theme_super-admin {
+    color: $pink;
+}
+
+.card__user-position_theme_moderator {
+    color: $orange;
+}
+
+.card__user-position_theme_normal {
+    color: $gray-600;
+}
