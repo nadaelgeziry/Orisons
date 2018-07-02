@@ -1,5 +1,7 @@
 .card {
     padding: 0;
+    max-width: 270px;
+    margin: 0 auto;
 }
 
 .card__verification {
@@ -53,13 +55,19 @@
     padding: 0;
     text-align: center;
     font-family: "CatSB";
-    padding: 25px 0;
+    padding: 25px 15px;
 }
 
 .card__button {
     font-size: 10px;
     box-shadow: 0 0 8px $gray-400;
-    padding: .275rem 1.5rem;
+    padding: 0 1.5rem;
+    padding-top: .275rem;
+    margin-bottom: .275rem;
+}
+
+.card__button_delete {
+    margin-right: 10px;
 }
 
 .card__user-position_theme_super-admin {

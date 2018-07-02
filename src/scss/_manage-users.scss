@@ -25,7 +25,8 @@
 .divider-drop {
     display: inline-block;
     margin-right: 0;
-    button {
+    text-align: center;
+    .drop-btn {
         // display: inline-block;
         margin-right: 20px;
         display: inline-flex;
@@ -33,6 +34,7 @@
         font-family: "CatSB";
         padding-right: 10px;
         padding-left: 20px;
+        margin: 0 auto;
         span {
             // display: inline-block;
             color: $gray-600;
@@ -42,9 +44,10 @@
             margin: 0;
             margin-right: 60px;
         }
-        .caret {
-            // display: inline-block;
-        }
+    }
+    .add-user-btn {
+        margin: 0 auto;
+        margin-left: 15px;
     }
 }
 .divider-drop-align {
