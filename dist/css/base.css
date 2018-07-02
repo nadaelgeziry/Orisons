@@ -6891,40 +6891,48 @@ a.text-dark:hover, a.text-dark:focus {
 .divider-text {
   font-size: 14px;
   color: #b2b2b2;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 15px; }
 
 .divider-hr {
   color: #b2b2b2;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 15px; }
+
+.main-btn-container {
+  text-align: right; }
 
 .main-btn {
   font-size: 12px;
   font-family: "CatSB";
-  float: right; }
+  margin-right: 0; }
 
 .divider-drop {
-  display: inline-block;
   margin-right: 0;
   text-align: center; }
-  .divider-drop .drop-btn {
-    margin-right: 20px;
-    display: inline-flex;
-    font-size: 12px;
-    font-family: "CatSB";
-    padding-right: 10px;
-    padding-left: 20px;
-    margin: 0 auto; }
-    .divider-drop .drop-btn span {
-      color: #b2b2b2; }
-    .divider-drop .drop-btn p {
-      margin: 0;
-      margin-right: 60px; }
-  .divider-drop .add-user-btn {
-    margin: 0 auto;
-    margin-left: 15px; }
 
 .divider-drop-align {
-  float: right; }
+  text-align: right; }
+
+.drop-btn {
+  margin-right: 20px;
+  display: inline-flex;
+  font-size: 12px;
+  font-family: "CatSB";
+  padding-right: 10px;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+  .drop-btn span {
+    color: #b2b2b2; }
+  .drop-btn p {
+    margin: 0;
+    margin-right: 60px; }
+
+.add-user-btn {
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-bottom: 15px; }
 
 .card {
   padding: 0;

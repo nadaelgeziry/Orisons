@@ -1,5 +1,4 @@
 .divider {
-    // display: inline-flex;
     align-items: center;
 }
 
@@ -7,50 +6,62 @@
     font-size: 14px;
     color: $gray-600;
     margin: 0;
+    margin-bottom: 15px;
 }
 
 .divider-hr {
     color: $gray-600;
     margin: 0;
+    margin-bottom: 15px;
 }
 
 
+.main-btn-container {
+    text-align: right;
+}
 
 .main-btn {
     font-size: 12px;
     font-family: "CatSB";   
-    float: right;
+    margin-right: 0;
+    // margin-bottom: 15px;
+    // float: right;
 }
 
 .divider-drop {
-    display: inline-block;
+    // display: inline-block;
     margin-right: 0;
     text-align: center;
-    .drop-btn {
-        // display: inline-block;
-        margin-right: 20px;
-        display: inline-flex;
-        font-size: 12px;
-        font-family: "CatSB";
-        padding-right: 10px;
-        padding-left: 20px;
-        margin: 0 auto;
-        span {
-            // display: inline-block;
-            color: $gray-600;
-        }
-        p {
-        //    display: inline-block;
-            margin: 0;
-            margin-right: 60px;
-        }
-    }
-    .add-user-btn {
-        margin: 0 auto;
-        margin-left: 15px;
-    }
+
 }
 .divider-drop-align {
-    float: right;
+    // float: right;
+    text-align: right
 }
 
+.drop-btn {
+    // display: inline-block;
+    margin-right: 20px;
+    display: inline-flex;
+    font-size: 12px;
+    font-family: "CatSB";
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    span {
+        // display: inline-block;
+        color: $gray-600;
+    }
+    p {
+    //    display: inline-block;
+        margin: 0;
+        margin-right: 60px;
+    }
+}
+
+.add-user-btn {
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
