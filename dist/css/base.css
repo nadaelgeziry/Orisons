@@ -6900,7 +6900,8 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 15px; }
 
 .main-btn-container {
-  text-align: right; }
+  text-align: right;
+  margin-bottom: 15px; }
 
 .main-btn {
   font-size: 12px;
@@ -6933,6 +6934,16 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0 auto;
   margin-left: 15px;
   margin-bottom: 15px; }
+
+@media (max-width: 768px) {
+  .divider-drop-align {
+    text-align: center; }
+  .divider-text {
+    text-align: center; }
+  .main-btn-container {
+    text-align: center; }
+  .page-title {
+    text-align: center; } }
 
 .card {
   padding: 0;

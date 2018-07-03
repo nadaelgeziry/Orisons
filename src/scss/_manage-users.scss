@@ -18,6 +18,7 @@
 
 .main-btn-container {
     text-align: right;
+    margin-bottom: 15px;
 }
 
 .main-btn {
@@ -36,7 +37,7 @@
 }
 .divider-drop-align {
     // float: right;
-    text-align: right
+    text-align: right;
 }
 
 .drop-btn {
@@ -64,4 +65,20 @@
     margin: 0 auto;
     margin-left: 15px;
     margin-bottom: 15px;
+}
+
+@media(max-width:768px){
+    .divider-drop-align {
+        // float: right;
+        text-align: center;
+    }
+    .divider-text {
+        text-align: center;
+    }
+    .main-btn-container {
+        text-align: center;
+    }
+    .page-title {
+        text-align: center;
+    }
 }
