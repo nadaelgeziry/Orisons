@@ -1,0 +1,84 @@
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+    border-top: none;
+}
+
+.pages-table {
+    border: 1px solid $gray-200;
+    border-radius: .25rem;
+}
+
+.pages-table__head {
+    border-top-style: none;
+}
+
+.pages-table__title {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: "CatSB";
+}
+
+th.pages-table__head-title {
+    color: $gray-400;
+    font-size: 12px;
+    // margin-left: 20px;
+}
+
+.pages-table__body {
+    th {
+        // padding-left: 60px;
+        font-size: 14px;
+        font-family: "CatSB";
+        display: inline-flex;
+        align-items: center;
+        padding: 20px 15px;
+    }
+    td {
+        padding: 20px 15px;
+        font-size: 14px;
+        font-family: "CatSB";
+    }
+}
+
+.pages-table__icon {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.page-table__icon-published {
+    color: $pink;
+}
+
+.page-table__icon-unpublished {
+    color: $orange;
+}
+
+.pages-table_status-public {
+    color: $green;
+}
+
+.pages-table_status-draft {
+    color: $orange;
+}
+
+.table-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    object-position: center center;
+    img {
+        
+    }
+}
+
+.pages-table__author {
+    display: inline-flex;
+    align-items: center;
+}
+
+.pages-table__author-name {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}

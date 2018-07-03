@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Orisons: Pages</title>
+  <link rel="icon" href="dist/imgs/logo-icon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/css/base.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-nav shadow-sm mb-5 sticky-top">
+        <a class="navbar-brand" href="#">
+          <img class="nav__image" src="dist/imgs/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler mt-2 mb-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link profile-dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <div class="user-image nav-image">
+                  <img class="card-img-top" src="dist/imgs/man.jpg" alt="Card image cap">
+                </div>
+                <div class="drop-info">
+                  <h4>John Doe</h4>
+                  <h6>Moderator</h6>
+                </div>
+                <div class="caret">
+                  <img src="dist/imgs/down-arrow.png" alt="down arrow">
+                </div>
+              </a>
+              <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item  notifications dropdown">
+              <a class="nav-link" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+                <i class="far fa-bell">
+                  <div class="noti-msg">
+                    <p class="noti-num">5</p>
+                  </div>
+                </i>
+              </a>
+              <div class="dropdown-menu " aria-labelledby="notiDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-2 col-sm-3 d-none d-sm-block">
+            <nav class="side-nav pt-5 pb-5">
+              <ul class="nav flex-column align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="pages.html">
+                    <i class="fas fa-bars"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="far fa-plus-square"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-cog"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="users.html">
+                    <i class="fas fa-users"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-lg-14 col-md-12 col-sm-12 col-15">
+            <div class="container-fluid">
+
+              <div class="row mb-4">
+                <div class="col-xl-2 page-title-container">
+                  <h1>My Pages</h1>
+                </div>
+                <div class="col-xl-6"></div>
+                <div class="col-xl-7">
+                    <div class="divider-drop-align">
+                        <button class="btn btn-info pb-2 drop-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span>Sort by: &nbsp;</span>
+                          <p> Last added</p>
+                          <div class="caret">
+                           <img src="dist/imgs/down-arrow.png" alt="down arrow">
+                         </div>
+                         </button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">First added</a>
+                          <a class="dropdown-item" href="#">Last added</a>  
+                          <a class="dropdown-item" href="#">Name</a>
+                        </div>
+                         <button href="#" class="btn btn-primary main-btn pb-2 add-user-btn"><i class="fas fa-plus add-new-icon"></i>&nbsp; New Page</button>
+                      </div>
+                      
+                    </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-15">
+                      <table class="table pages-table">
+                          <thead class="pages-table__head">
+                            <tr ><th><h2 class="pages-table__title">Active pages & drafts</h2></th></tr>
+                            <tr >
+                              <th class="pages-table__head-title" scope="col">Page title</th>
+                              <th class="pages-table__head-title" scope="col">Status</th>
+                              <th class="pages-table__head-title" scope="col">Views</th>
+                              <th class="pages-table__head-title" scope="col">Last modified</th>
+                              <th class="pages-table__head-title" scope="col">Author</th>
+                              <th class="pages-table__head-title" scope="col">Action</th> 
+                            </tr>
+                          </thead>
+                          <tbody class="pages-table__body">
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-published"></i> Homepage</th>
+                              <td class="pages-table_status-public">Public</td>
+                              <td>12,033</td>
+                              <td>8 december 2017 by John Doe</td>
+                              <td class="pages-table__author">
+                                  <div class="user-image table-image ">
+                                      <img class="card-img-top" src="dist/imgs/man.jpg" alt="Card image cap">
+                                  </div>
+                                  <h6 class="pages-table__author-name">John Doe</h6>
+                                </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-published"></i> About us</th>
+                              <td class="pages-table_status-public">Public</td>
+                              <td>6,255</td>
+                              <td>12 december 2017 by John Doe</td>
+                              <td class="pages-table__author">
+                                <div class="user-image table-image ">
+                                    <img class="card-img-top" src="dist/imgs/man.jpg" alt="Card image cap">
+                                </div>
+                                <h6 class="pages-table__author-name">John Doe</h6>
+                              </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-unpublished"></i> Our services</th>
+                              <td class="pages-table_status-draft">Draft</td>
+                              <td>------</td>
+                              <td>18 december 2017 by Penelope Streight</td>
+                              <td class="pages-table__author">
+                                  <div class="user-image table-image ">
+                                      <img class="card-img-top" src="dist/imgs/woman.jpg" alt="Card image cap">
+                                  </div>
+                                  <h6 class="pages-table__author-name">Penelope Streight</h6>
+                                </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-published"></i> About us</th>
+                              <td class="pages-table_status-public">Public</td>
+                              <td>6,255</td>
+                              <td>12 december 2017 by John Doe</td>
+                              <td class="pages-table__author">
+                                <div class="user-image table-image ">
+                                    <img class="card-img-top" src="dist/imgs/man.jpg" alt="Card image cap">
+                                </div>
+                                <h6 class="pages-table__author-name">John Doe</h6>
+                              </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-unpublished"></i> Our services</th>
+                              <td class="pages-table_status-draft">Draft</td>
+                              <td>------</td>
+                              <td>18 december 2017 by Penelope Streight</td>
+                              <td class="pages-table__author">
+                                  <div class="user-image table-image ">
+                                      <img class="card-img-top" src="dist/imgs/woman.jpg" alt="Card image cap">
+                                  </div>
+                                  <h6 class="pages-table__author-name">Penelope Streight</h6>
+                                </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-published"></i> About us</th>
+                              <td class="pages-table_status-public">Public</td>
+                              <td>6,255</td>
+                              <td>12 december 2017 by John Doe</td>
+                              <td class="pages-table__author">
+                                <div class="user-image table-image ">
+                                    <img class="card-img-top" src="dist/imgs/man.jpg" alt="Card image cap">
+                                </div>
+                                <h6 class="pages-table__author-name">John Doe</h6>
+                              </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="pages-table__body-title" scope="row"><i class="myicon-paper pages-table__icon page-table__icon-unpublished"></i> Our services</th>
+                              <td class="pages-table_status-draft">Draft</td>
+                              <td>------</td>
+                              <td>18 december 2017 by Penelope Streight</td>
+                              <td class="pages-table__author">
+                                  <div class="user-image table-image ">
+                                      <img class="card-img-top" src="dist/imgs/woman.jpg" alt="Card image cap">
+                                  </div>
+                                  <h6 class="pages-table__author-name">Penelope Streight</h6>
+                                </td>
+                              <td>
+                                  <a href="#" class="btn btn-primary card__button card__button_delete">Delete</a>
+                                  <a href="#" class="btn btn-outline-success card__button">Edit</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+             
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+              
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+</body>
+
+</html>
