@@ -10636,13 +10636,13 @@ th.pages-table__head-title {
   color: #e94867; }
 
 .page-table__icon-unpublished {
-  color: #F39369; }
+  color: #b2b2b2; }
 
 .pages-table_status-public {
   color: #53D89D; }
 
 .pages-table_status-draft {
-  color: #F39369; }
+  color: #b2b2b2; }
 
 .table-image {
   width: 30px;
