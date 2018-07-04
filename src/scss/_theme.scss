@@ -1,8 +1,24 @@
 
 .user-image {
+    // text-align: center;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center;
+    object-position: center center;
+}
+
+.user-image-sm {
+    width: 30px;
+    height: 30px;
+}
+
+.user-image-md {
+    width: 120px;
+    height: 120px;
+}
+
+.user-image-wrapper {
+    margin-right: 15px;
+    text-align: center;
 }
 
 .nav__image {
